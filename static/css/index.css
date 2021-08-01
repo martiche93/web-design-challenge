@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  background-color: grey;
+}
+
+body {
+  background-image: url("../../Images/background.jpeg");
+  background-position: center;
+  min-height: 100%;
+  background-attachment: relative;
+}
+
+/* Styling the wrapper */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+
+.navbar {
+  padding: 35px;
+  background: #42bcf5;
+  min-height: 30px;
+}
+
+.logo {
+  position: fixed;
+  left: 50px;
+  top: 1px;
+  font-size: 40px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 9px;
+}
+
+.dropbtn {
+  position: fixed;
+  right: 5px;
+  padding: 10px;
+  min-width: 90px;
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-color: white;
+}
+
+.arrow {
+  border: solid grey;
+  border-width: 0 2px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.dropdown {
+  position: fixed;
+  right: 5px;
+  top: 10px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 5px;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  min-width: 90px;
+}
+
+.dropdown-content a {
+  color: #000;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Adding hover feature for the dropdown menu */
+.dropdown-content a:hover {
+  background-color: #42ddf5;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #42ddf5;
+}
+
+/* media queries which will only be activated at specific screen sizes */
+@media (max-width: 800px) {
+  #table-area td {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  #table-area thead {
+    display: none;
+  }
+}
