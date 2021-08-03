@@ -10,7 +10,6 @@ body {
   background-attachment: relative;
 }
 
-/* navbar Styling */
 .navbar-brand {
   padding: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,7 +18,7 @@ body {
 }
 
 ul {
-  position: fixed;
+  position: absolute;
   right: 2px;
   list-style-type: none;
   margin: 0;
@@ -36,6 +35,7 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  position: relative;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -68,7 +68,6 @@ li.dropdown {
   display: block;
 }
 
-/* Header Styling */
 h3 {
   color: #42bcf5;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,35 +80,38 @@ p {
   padding: 10px;
 }
 
-.project-description {
-  position: relative;
-  left: 725px;
+h1.project-description {
+  align-content: center;
+  text-align: center;
+  background-color: white;
 }
 
-h1.description-header {
-  position: relative;
+.description-header {
+  align-content: center;
   color: #42bcf5;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 15px;
-  left: 350px;
+  text-align: center;
 }
 
 hr {
-  position: relative;
-  left: 0;
-}
-
-.blurb {
-  position: relative;
-  left: 425px;
+align-content: center;
 }
 
 .imageNav-header {
-  position: relative;
-  left: 200px;
+  align-content: center;
+}
+
+.center {
+  align-content: center;
 }
 
 .img-fluid {
-  position: relative;
-  left: 0;
+  align-content: center;
+}
+
+h4 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
 }
